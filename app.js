@@ -36,6 +36,6 @@ app.get('/output', function(req, res){
   res.sendFile(__dirname + "/output.html");
 })
 
-app.listen(3000, '0.0.0.0',function(){
-  console.log("Server listening on port 3000");
+app.listen(8000, '0.0.0.0',function(){
+  console.log("Server listening on port 8000");
 })
